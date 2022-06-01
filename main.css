@@ -7,15 +7,18 @@
 }
 
 .container{
-  height:100vh;
+  height:90vh;
   display:flex;
   justify-content:center;
   align-items:center;
   margin-top:20px;
 
+
 }
 
 .calculator{
+  position:relative;
+  margin-top:-180px;
   background-color:#1C1C1C;
   padding:15px;
   border-radius:30px;
@@ -63,51 +66,185 @@ button div{
   width:123px;
   background-color:#505050;
 }
-
 .lighter{
   background-color:#d4d4d2 ;
 }
 .orange{
   background-color: #ff9500;
 }
-
 #link{
   text-decoration: none;
   font-size:60px;
   color:#ff9500;
-  text-align: center;
-  margin-left:38%;
-  position:relative;
-  top:680px;
+  text-align:center;
   background-color:#1C1C1C;
-  padding:20px 100px;
-  margin-bottom:400px;
+  padding:20px 102px;
   border-radius:30px;
-
 }
-@media only screen and (min-width:100px){
+.infoText{
+  display: none;
+  position: absolute;
+  background-color: #1C1C1C;
+  text-align: center;
+  font-size:40px;
+  color:#ff9500;
+  width:310px;
+  right:50px;
+  padding:40px 30px;
+  border-radius: 30px;
+  top:220px;
+}
+@media only screen and (min-height:300px){
+  /* iphone SE */
   #link{
+    position:absolute;
+    font-size:160px;
+    top:10px;
+  }
+  .calculator{
+    top:450px;
+    
+  }
+}
+@media only screen and (min-height:500px){
+  /* galaxy fold */
+  #link{
+    position:absolute;
+    top:10px;
+    font-size:25px;
+    border-radius:20px;
+    padding:20px 112px;
+
+  }
+  .calculator{
+    top:120px;
+    padding:10px;
+    
+  }
+}
+
+@media only screen and (min-height:600px){
+  /* galaxy fold */
+  #link{
+    position:absolute;
+    top:10px;
+    font-size:35px;
+    border-radius:20px;
+    padding:20px 112px;
+    margin-left:4px;
+
+  }
+  .calculator{
+    top:150px;
+    padding:10px;
+    
+  }
+}
+
+@media only screen and (min-height:700px){
+  /* Samsung galaxy s8 plus */
+  #link{
+    padding:20px 102px;
+    position:absolute;
+    top:10px;
+    font-size:60px;
+  }
+  .calculator{
+    top:130px;
+    padding:20px;
+  }
+}
+@media only screen and (min-height:800px){
+  /* Iphone 12 Pro */
+  #link{
+    padding:20px 102px;
+    position:absolute;
+    top:10px;
+  }
+  .calculator{
+    top:100px;
+  }
+}
+@media only screen and (min-height:850px){
+  /* Google pixel 5 */
+  #link{
+    position:absolute;
+    top:10px;
+  }
+  .calculator{
+    top:70px;
+  }
+}
+@media only screen and (min-height:890px){
+  /* Iphone XR */
+  #link{
+    padding:20px 102px;
+    position:absolute;
+    top:8px;
+  }
+  .calculator{
+    top:50px;
+  }
+}
+@media only screen and (min-height:900px){
+  /* Samsung galaxy S20 Ultra */
+  .calculator{
+    top:40px;
+    
+  }
+}
+
+@media only screen and (min-height:1020px){
+  /* IPad mini */
+  #link{
+    position:absolute;
+    top:620px;
+    right:50px;
+  }
+  .calculator{
+    top:90px;
+    left:-200px;
+  }
+  .infoText{
     display: block;
-    margin:10%;
-    top:-90px;
-
+    top:230px;
   }
 }
 
-@media only screen and (min-width:400px){
-  #link{
-    top:-190px;
+@media only screen and (min-height:1100px){
+  /* IPad Air */
+
+  .calculator{
+    top:10px;
   }
-
-
+  .infoText{
+    top:220px;
+  }
 }
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-height:1300px){
+  /* Surface Pro7  */
   #link{
+    position:absolute;
+    top:700px;
+    right:80px;
+  }
+  .calculator{
+    top:10px;
+    left:-200px;
+  }
+  .infoText{
     display: block;
-    top:-150px;
-    margin:10%
+    top:305px;
+    right:80px;
   }
 }
+
+
+
+
+
+
+
 
 
