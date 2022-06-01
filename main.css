@@ -105,7 +105,7 @@ button div{
 @media only screen and (min-width:1000px){
   #link{
     display: block;
-    top:-190px;
+    top:-150px;
     margin:10%
   }
 }
