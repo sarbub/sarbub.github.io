@@ -11,6 +11,7 @@
   display:flex;
   justify-content:center;
   align-items:center;
+  margin-top:20px;
 
 }
 
@@ -104,8 +105,8 @@ button div{
 @media only screen and (min-width:1000px){
   #link{
     display: block;
-    top:580px;
-    margin-left:35%;
+    top:-190px;
+    margin:10%
   }
 }
 
