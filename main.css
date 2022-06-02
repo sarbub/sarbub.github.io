@@ -91,17 +91,7 @@ button div{
   border-radius: 30px;
   top:220px;
 }
-.theme{
-  position:absolute;
-  top:150px;
-  left:50px;
-  background-color:#d4d4d2;
-  color:#fff;
-  font-size:20px;
-  z-index:1;
 
-
-}
 @media only screen and (min-height:300px){
   /* iphone SE */
   #link{
@@ -164,10 +154,7 @@ button div{
   .infoText{
     display: none;
   }
-  #theme{
-    top:170px;
-    left:50px;
-  }
+ 
 }
 @media only screen and (min-height:800px){
   /* nest hub max*/
@@ -179,10 +166,7 @@ button div{
   .calculator{
     top:100px;
   }
-  #theme{
-    top:160px;
-    left:500px;
-  }
+
 }
 @media only screen and (min-height:840px){
   /* Iphone 12 Pro */
@@ -194,11 +178,7 @@ button div{
   .calculator{
     top:100px;
   }
-  #theme{
-    top:180px;
-    left:60px;
-    
-  }
+
 }
 @media only screen and (min-height:850px){
   /* Google pixel 5 */
@@ -209,9 +189,7 @@ button div{
   .calculator{
     top:70px;
   }
-  #theme{
-    top:150px;
-  }
+ 
 }
 @media only screen and (min-height:890px){
   /* Iphone XR */
@@ -223,10 +201,7 @@ button div{
   .calculator{
     top:50px;
   }
-  #theme{
-    top:150px;
-    left:70px;
-  }
+  
 }
 @media only screen and (min-height:900px){
   /* Samsung galaxy S20 Ultra */
@@ -251,10 +226,7 @@ button div{
     display: block;
     top:230px;
   }
-  #theme{
-    top:250px;
-    left:50px;
-  }
+ 
 }
 
 @media only screen and (min-height:1100px){

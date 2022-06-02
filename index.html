@@ -11,10 +11,10 @@
 </head>
 <body>
   <div class="container">
-    <button class="theme" id="theme" onclick = "change()">t</button>
+    
     <div class="calculator" id="calculator">
       <input type="text" placeholder="0" id="input">
-      <button onclick ="zero('')" class="lighter"><div class="lighter" >C</div></button>
+      <button onclick ="zero('')" class="lighter" ondblclick="change()"><div class="lighter" >c/t</div></button>
       <button onclick ="del('')" class="lighter"><div class="lighter">del</div></button>
       <button onclick ="display('%')" class="lighter"><div class="lighter">%</div></button> 
       <button onclick ="display('/')" class="orange"><div class="orange">/</div></button>

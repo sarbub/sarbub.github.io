@@ -31,21 +31,15 @@ function change(){
   const calculator = document.getElementById("calculator");
   const input = document.getElementById("input");
   const link = document.getElementById("link");
-  const theme = document.getElementById("theme");
   if(i == 0){
-   calculator.style.background = "#fff";
+    calculator.style.background = "#fff";
     input.style.background = "#fff"
     link.style.background = "#fff"
-    theme.style.background = "#ff9500";
-
     i=1;
   }else{
     calculator.style.background = "#1C1C1C";
     input.style.background = "#1C1C1C"
     link.style.background = "#1C1C1C"
-
-    theme.style.background = "#BE0C0C";
-
     i = 0;
 
   }
