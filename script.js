@@ -35,12 +35,15 @@ function change(){
   if(i == 0){
     calculator.style.background = "#fff";
     input.style.background = "#fff"
+    input.style.color = "#1c1c1c";
     link.style.background = "#fff"
     i=1;
   }else{
     calculator.style.background = "#1C1C1C";
-    input.style.background = "#1C1C1C"
-    link.style.background = "#1C1C1C"
+    input.style.background = "#1C1C1C";
+    link.style.background = "#1C1C1C";
+    input.style.color = "#fff";
+
     i = 0;
 
   }
