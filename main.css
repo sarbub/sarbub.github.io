@@ -164,6 +164,10 @@ button div{
   .infoText{
     display: none;
   }
+  #theme{
+    top:160px;
+    left:50px;
+  }
 }
 @media only screen and (min-height:800px){
   /* nest hub max*/
@@ -178,7 +182,6 @@ button div{
   #theme{
     top:160px;
     left:500px;
-    
   }
 }
 @media only screen and (min-height:840px){
