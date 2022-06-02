@@ -1,0 +1,58 @@
+let i = 0;
+
+
+function display(num){
+
+ let outputScreen = document.getElementById("input");
+ outputScreen.value += num;
+}
+
+function zero(numb){
+  let outputScreen2 = document.getElementById("input");
+  outputScreen2.value = numb;
+}
+function del(){
+  let outputScreen = document.getElementById("input");
+  outputScreen.value = outputScreen.value.slice(0,-1);
+}
+
+function calc(){
+  let outputScreen = document.getElementById("input");
+  try{
+    
+    outputScreen.value = eval(outputScreen.value);
+    
+  }catch(err){
+    outputScreen.value = "error";
+  }
+}
+
+function change(){
+  const calculator = document.getElementById("calculator");
+  const input = document.getElementById("input");
+  const link = document.getElementById("link");
+  const theme = document.getElementById("theme");
+  if(i == 0){
+   calculator.style.background = "#fff";
+    input.style.background = "#fff"
+    link.style.background = "#fff"
+    theme.style.background = "#ff9500";
+
+    i=1;
+  }else{
+    calculator.style.background = "#1C1C1C";
+    input.style.background = "#1C1C1C"
+    link.style.background = "#1C1C1C"
+
+    theme.style.background = "#BE0C0C";
+
+    i = 0;
+
+  }
+ 
+
+}
+
+
+
+
