@@ -1,0 +1,350 @@
+body{
+	margin: 0;
+}
+
+/* navbar*/
+
+
+.navBar{
+	position: fixed;
+	background-color : #000;/*culoarea de background pentru bara de navigare*/
+	height: 60px;
+	top: 0px;	
+	width: 100%;
+}
+
+#MainImage{
+	position: absolute;
+	height: 65px;
+	width:150px;
+	top: 5px;
+}
+
+.navBar a {
+  float: right;
+  top:-10px;
+  font-family: "sans-serif courier";
+  color:#DB4437;/*culoarea pentru textul din bara de navigare fara home,home ii putin mai jos*/
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+/*finish navbar*/
+
+ #p{
+	font-size: 80px;
+}
+
+/* buttons*/
+
+
+.buttons{
+	position: relative;
+	top: 300px;
+	right: 200px;
+
+}
+
+
+#Activate{color:#DB4437;}/*culoarea pentru textul 'home' din bara de navigare*/
+
+
+.button {
+  border-radius: 5px;
+  background-color:  #1aa260;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  width: 260px;
+  font-family:"sans-serif courier" ;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button2 {
+  border-radius: 5px;
+  background-color: #1aa260;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  width: 260px;
+  font-family:"sans-serif courier" ;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/* end buttons*/
+
+
+.textLearn{
+	overflow: hidden;
+	padding: 10px 40px;
+	text-align: left;
+	width: 500px;
+	color: #DB4437/*culoarea pentru textul mare 'Learn with firePage' */
+}
+
+.publicity{
+	background-color: #DB4437;	/*culoarea de ecran de jos 'acea unde sunt butoanele de social media' */
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
+
+#sign{
+	position: relative;
+	top: 5px;
+	color: #1aa260;/*culoarea pentru logo de la 'sign in'*/
+}
+
+#more{
+	position: relative;
+	top: 5px;
+	color: #1aa260;/*culoarea de la logo 'more'*/
+}
+#moreText{
+	color:#DB4437;;
+}
+
+
+#home{
+	position: relative;
+	top: 5px;
+	color: #1aa260;/*culoarea de la logo home*/
+}
+
+
+#quiz{
+	position: relative;
+	top: 10px;
+}
+
+#learn{
+	position: relative;
+	top: 10px;
+}
+
+
+#firstAll{
+	position: relative;
+	width:100% ;
+	overflow: hidden;
+
+
+	
+}
+
+#dot1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 700px;
+	height: 700px;
+	opacity: 0.05;
+	z-index: -1;
+
+}
+
+#dot2{
+	position: absolute;
+	top: 30px;
+	right:0px;
+	width: 400px;
+	height: 400px;
+	opacity: 0.1;
+	z-index: -1;
+
+}
+
+
+
+#facebook{
+	position: absolute;
+	left: 33px;
+	top: 12px;
+	width: 20px;
+	height: 20px;
+	color: #fff;/*culoarea de la logo 'facebook'*/
+	border-radius: 100%;
+	border: 2px solid #fff;
+	padding: 5px 5px;
+	border: 2px solid #fff;
+
+}
+
+
+#instagramLogo{
+	position: absolute;
+	left:78px;
+	top: 12px;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	border-radius: 100%;
+	border: 2px solid #fff;/*culoarea de la logo 'instagram'*/
+	padding: 5px 5px;
+	border: 2px solid #fff;	
+}
+
+#youtubeLogo{
+	position: absolute;
+	left:123px;
+	top: 12px;
+	width: 20px;
+	height: 20px;
+	color: #fff;/*culoarea de la logo 'youtube'*/
+	border-radius: 100%;
+	border: 2px solid #fff;
+	padding: 5px 5px;
+	border: 2px solid #fff;
+}
+.smaller{
+	display:none;
+}
+
+@media only screen and (max-width:550px){
+#p{
+	font-size:60px;
+}
+.textLearn{
+	position:relative;
+	top:200px;
+	width:400px;
+}
+
+.navBar{
+	height:90px;
+}
+#Activate{
+	position:relative;
+	top:15px;
+}
+#signup{
+	position:relative;
+	top:15px;
+}
+#moreText{
+	position:relative;
+	top:15px;
+}
+
+}
+
+@media only screen and (max-width:400px){
+	#Activate{
+		position:relative;
+		top:15px;
+		font-size:20px;
+	}
+	#signup{
+		position:relative;
+		top:15px;
+		font-size:20px;
+	}
+	#moreText{
+		position:relative;
+		top:15px;
+		font-size:20px;
+
+	}
+	#p{
+		color:rgba(255, 0, 0, 0.712);
+		font-size:40px;
+	}
+	.textLearn{
+		right:20px;
+	}
+
+}
+@media only screen and (max-width:360px){
+	.textLearn{
+		display:none;
+	}
+	.buttons{
+		display:none;
+	}
+
+	.smaller{
+		display:block;
+		position:absolute;
+		width:200px;
+		top:100px;
+		background-color:#F99CB1;
+		padding:20px;
+		left:40px;
+		z-index:-1;
+	}
+	.smaller p{
+		font-size:30px;
+		color:#4285F4;
+		opacity:1;
+	}
+
+
+}
+
+
+
+

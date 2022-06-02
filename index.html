@@ -1,45 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href= "main.css" rel="stylesheet">
-  <script src="script.js"></script>
-  
-  <title>calculator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title id="title">FirePage</title>
+	<link rel="styleSheet" href="stile.css">
+	<link rel="icon" href="MainIcon.png" id="logo">
 </head>
-<body>
-  <div class="container">
-    
-    <div class="calculator" id="calculator">
-      <input type="text" placeholder="0" id="input">
-      <button onclick ="zero('')" class="lighter" ondblclick="change()"><div class="lighter" >c/t</div></button>
-      <button onclick ="del('')" class="lighter"><div class="lighter">del</div></button>
-      <button onclick ="display('%')" class="lighter"><div class="lighter">%</div></button> 
-      <button onclick ="display('/')" class="orange"><div class="orange">/</div></button>
-      <button onclick ="display('7')"><div>7</div></button>
-      <button onclick ="display('8')"><div>8</div></button>
-      <button onclick ="display('9')"><div>9</div></button>
-      <button onclick ="display('*')" class="orange"><div class="orange">*</div></button>
-      <button onclick ="display('4')"><div>4</div></button>
-      <button onclick ="display('5')"><div>5</div></button>
-      <button onclick ="display('6')"><div>6</div></button>
-      <button onclick ="display('-')" class="orange"><div class="orange">-</div></button>
-      <button onclick ="display('1')"><div>1</div></button>
-      <button onclick ="display('2')"><div>2</div></button>
-      <button onclick ="display('3')"><div>3</div></button> 
-      <button onclick ="display('+')" class="orange"><div class="orange">+</div></button> 
-      <button onclick ="display('0')" class="longZero"><div id="longZero">0</div></button>&nbsp 
-      <button onclick ="display('.')"><div>.</div></button>
-      <button onclick ="calc()" class="orange"><div class="orange">=</div></button>  
-      
-    </div>
-    <a id="link" href="https://www.youtube.com/watch?v=dDGvSX6vTFY">Info</a>
-    <p id="version">Version:0.2</p>
-  </div>
-  
 
- 
+<body>
+
+
+	
+	<!-- ###1.code for the icons starts here-->
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	<!--code for icons ends here-->
+
+	<div id="firstAll">
+
+		<img src="test.png" id="dot1">
+		<img src="test2.png" id="dot2">
+		
+		<!-- ####2.code for the navbar starts here-->
+
+
+		<div class="navBar">
+	
+		<a href="index.html" id="Activate">Home <ion-icon name="home-outline" id="home"></ion-icon></a>
+		<a href="signUp.html" id="signup">sign up <ion-icon name="create-outline" id="sign"></ion-icon></a>
+		<a href="more.html" id="moreText">more <ion-icon name="ellipsis-horizontal-circle-outline" id="more"></ion-icon></a>
+		<!--code for navbar ends here-->
+
+	</div><br>
+
+	<!-- ###3.code for the buttons and the text starts here-->
+	<div class="textLearn">
+		<p id="p">Learn and take your exams 100% with FirePage</p>
+	</div>
+	<div class="buttons">
+		<a href="#"><button class="button"><span>Take quiz</span></button></a>
+		<a href="Learn.html"><button class="button2"><span>Learn</span></button></a>	
+	</div>	
+	</div>
+	<div class="smaller">
+		<p>this site is design for wider devices,we are working to make it for your type of screen as fast as posible</p>
+	</div>
+	<br><br>
+	
+
+	<!-- code for the buttons and the text ends here-->
+	
+
+
 </body>
 </html>
