@@ -32,18 +32,23 @@ function change(){
   const calculator = document.getElementById("calculator");
   const input = document.getElementById("input");
   const link = document.getElementById("link");
+  const version = document.getElementById("version");
+  const info = document.getElementById("link");
   if(i == 0){
     calculator.style.background = "#fff";
     input.style.background = "#fff"
-    input.style.color = "#1c1c1c";
+    input.style.color = "#505050";
     link.style.background = "#fff"
+    version.style.color = "#ff9500";
+    info.style.color = "#505050";
     i=1;
   }else{
     calculator.style.background = "#1C1C1C";
     input.style.background = "#1C1C1C";
     link.style.background = "#1C1C1C";
-    input.style.color = "#fff";
-
+    info.style.color = "#fff";
+    version.style.color = "#1c1c1c";
+    info.style.color = "#ff9500";
     i = 0;
 
   }

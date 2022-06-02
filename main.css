@@ -30,8 +30,8 @@ input{
   grid-column: span 4;
   position:relative;
   height:70px;
-  width:170px;
-  margin-left:30%;
+  width:250px;
+  margin-left:6%;
   background-color:#1C1C1C;
   box-shadow: -5px -5px 12px #dd1d1d inset 5px 5px 12px rgba(0,0,0,.16);
   border:none;
@@ -77,19 +77,6 @@ button div{
   background-color:#1C1C1C;
   padding:20px 102px;
   border-radius:30px;
-}
-.infoText{
-  display: none;
-  position: absolute;
-  background-color: #1C1C1C;
-  text-align: center;
-  font-size:40px;
-  color:#ff9500;
-  width:310px;
-  right:50px;
-  padding:40px 30px;
-  border-radius: 30px;
-  top:220px;
 }
 #version{
   color:#505050;
@@ -158,10 +145,7 @@ button div{
     top:130px;
     padding:20px;
   }
-  .infoText{
-    display: none;
-  }
- 
+
 }
 @media only screen and (min-height:800px){
   /* nest hub max*/
@@ -242,9 +226,7 @@ button div{
   .calculator{
     top:10px;
   }
-  .infoText{
-    top:220px;
-  }
+
 }
 
 @media only screen and (min-height:1300px){
@@ -258,11 +240,7 @@ button div{
     top:10px;
     left:-200px;
   }
-  .infoText{
-    display: block;
-    top:305px;
-    right:80px;
-  }
+
 }
 
 
