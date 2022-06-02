@@ -91,6 +91,13 @@ button div{
   border-radius: 30px;
   top:220px;
 }
+#version{
+  color:#505050;
+  font-size:20px;
+  margin:auto;
+  position:absolute;
+  top:700px;
+}
 
 @media only screen and (min-height:300px){
   /* iphone SE */
