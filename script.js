@@ -1,4 +1,5 @@
 let i = 0;
+alert("you can now change calculator theme my double clicking on the c/t button");
 
 
 function display(num){
