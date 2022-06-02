@@ -95,7 +95,7 @@ button div{
   position:absolute;
   top:150px;
   left:50px;
-  background-color:#BE0C0C;
+  background-color:#d4d4d2;
   color:#fff;
   font-size:20px;
   z-index:1;
@@ -165,7 +165,7 @@ button div{
     display: none;
   }
   #theme{
-    top:160px;
+    top:170px;
     left:50px;
   }
 }
