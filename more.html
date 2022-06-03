@@ -7,31 +7,47 @@
       <title id="title">FirePage</title>
       <style>
         .text{
-          color:#DB4437;
-          font-size:50px;
-          position:relative;
-          width:300px;
-          background: #000;
-          margin:auto;
-          top:50px;
-          padding:20px;
+          display:grid;
+          grid-template-columns: 70% 30%;
         }
-        .text a{
+        .text  a{
           text-decoration:none;
           color:#1aa260;
+
         }
         h1{
           font-size:60px;
-
           position:relative;
+        }
+        .text div{
+          font-size:30px;
+          background-color: #1c1c1c;
+          padding:4rem 1rem;
+          color:#fff;
+          text-align:center;
+        }
+        .text div:nth-child(odd){
+          background-color:rgba(255, 0, 0, 0.801);
+          color:#1c1c1c;
+        }
+        @media only screen and (max-width:500px){
+          .text{
+          grid-template-columns:100%;
+        }
         }
       </style>
   </head>
   <body>
     <h1>More</h1>
    <div class="text">
-    <p>this page is not available at the moment</p>
-    <a href="index.html">home</a>
+     <div>
+       This is FirePage,this will be a place that will be design for learning.<br>
+       Go check out our calculator!
+     </div>
+     <div>
+       <a href="CalculatorIndex.html">Check calculator!</a><br>
+       <a href="index.html">home</a>
+     </div>
    </div>
     
   </body>
