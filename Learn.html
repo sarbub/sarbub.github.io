@@ -3,50 +3,77 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="styleSheet" href="LearnStyle.css">
+<style>
+	.wrapp div{
+		background-color: #eee;
+		padding:1rem;
+		color:#15b8b8;
+		font-weight: bold;
+		font-size:20px;
 
-	<link rel="icon" href="MainIcon.png" id="logo">
+	}
+	.wrapp div:nth-child(odd){
+		background-color: #ddd;
+		padding:1rem;
+	}
+	.wrapp a {
+		text-decoration:none;
+		color:#0ba10b;
+		font-weight: bold;
+		font-size:20px;
+	}
+
+	.upper{
+		display: grid;
+		grid-template-columns: 50%;
+		background-color: #15b8b8;
+		padding:1rem 2rem;
+		color:#fff;
+		font-size:20px;
+	}
+	.bottom{
+		display: grid;
+		grid-template-columns: 50%;
+		background-color: #bd1a1a;
+		padding:2rem 2rem;
+		font-size:20px;
+	}
+	.bottom a {
+		text-decoration: none;
+		color:#fff;
+		font-size:20px;
+	}
+
+</style>
+
 	<title>FirePage</title>
 </head>
 <body>
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-	<div class="navBar">
-		<img src="MainLogo.png" id="MainImage">
-		<a href="#" >Home <ion-icon name="home-outline" id="home"></ion-icon></a>
-		<a href="#" id="sign_up">sign up <ion-icon name="create-outline" id="sign"></ion-icon></a>
-		<a href="#">more <ion-icon name="ellipsis-horizontal-circle-outline" id="more"></ion-icon></a>
-	</div>
-	<a href="FirePage.html" ><ion-icon name="return-down-back-outline" id="backButton"></ion-icon></a>
-	<div id="mainDiv">
-		<div id="text">
-			<p id="p1">Cunostinta va avea sfarsit</p>
-		<p id=p2>1 Corinteni 13:8</p>
+	<div class="upper">
+		<div class="text">
+			<p>Learn</p>
 		</div>
-		<img src="Mainblur.png" id="dot1">
-		<img src="test2.png" id="dot2">
 	</div>
-	
-	
+	<div class="wrapp">
+		<div>
+			Clasa 1:
+		</div>
+		<div>
+			<a href="https://www.mathema.ro/algebra/adunarea-numerelor-naturale">-Adunarea numerelor</a>
+		</div>
+		<div>
+			<a href="https://www.mathema.ro/algebra/scaderea-numerelor-naturale">-Scaderea numerelor</a>
+		</div>
+		<div>
+			<a href="https://www.tablainmultirii.ro/">-Tabla inmultirii</a>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="">
+			<a href="index.html">Home</a>
+		</div>
 	</div>
 
-	
-	 <div id="lastDiv">
-	 	
-	 	<a href="https://www.facebook.com/alexandra.moraru.3538"><ion-icon name="logo-facebook" id="facebook"></ion-icon></a>
-		<a href="https://www.instagram.com/" ><ion-icon name="logo-instagram" id="instagramLogo"></ion-icon></a>
-		<a href="https://www.youtube.com/" ><ion-icon name="logo-youtube" id="youtubeLogo"></ion-icon></a>
-
-	 </div>
-
-	
-
-	
-
-
-	
-		
 
 
 </body>
