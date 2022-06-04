@@ -5,14 +5,14 @@ body{
 /* navbar*/
 
 #version{
-	color:#babcbe;
+	color:#fff;
 	font-size:20px;
 
 }
 
 .navBar{
 	position: fixed;
-	background-color : #077507;/*culoarea de background pentru bara de navigare*/
+	background-color : #fff;/*culoarea de background pentru bara de navigare*/
 	height: 70px;
 	top: 0px;	
 	width: 100%;
@@ -25,7 +25,7 @@ body{
 	position:relative;
 	top:8px;
   font-family: "sans-serif courier";
-  color:#fff;/*culoarea pentru textul din bara de navigare fara home,home ii putin mai jos*/
+  color:#1c1c1c;/*culoarea pentru textul din bara de navigare fara home,home ii putin mai jos*/
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
@@ -41,14 +41,17 @@ body{
 .container div{
 	color:#fff;
 	font-size:50px;
-	background-color:#bd1a1a;
+	font-weight: bold;
+	font-family:serif;
+	background-color:#c1c1c1;
 	padding:2rem 2rem;
 	box-shadow: 5px 10px 18px #888888;
 }
 .container div:nth-child(odd){
 	color:#fff;
 	font-size:50px;
-	background-color:#15b8b8;
+	background-image: url("citesteBiblia.jpg");
+	background-size:cover;
 }
 .container a {
 	text-decoration:none;
@@ -70,23 +73,23 @@ body{
 #sign{
 	position: relative;
 	top: 5px;
-	color: #fff;/*culoarea pentru logo de la 'sign in'*/
+	color: #1c1c1c;/*culoarea pentru logo de la 'sign in'*/
 }
 
 #more{
 	position: relative;
 	top: 5px;
-	color: #fff;/*culoarea de la logo 'more'*/
+	color: #1c1c1c;/*culoarea de la logo 'more'*/
 }
 #moreText{
-	color:#fff;;
+	color:#1c1c1c;;
 }
 
 
 #home{
 	position: relative;
 	top: 5px;
-	color: #fff;/*culoarea de la logo home*/
+	color: #1c1c1c;/*culoarea de la logo home*/
 }
 
 
@@ -131,7 +134,7 @@ body{
 
 }
 .daily div{
-	color:#c1c1c1;
+	color:#fff;
 	box-shadow: 5px 10px 18px #888888;
 	text-align: center;
 	margin: auto;
@@ -139,6 +142,7 @@ body{
 	width:70%;
 	padding:2rem 2rem;
 	border-radius:20px;
+	background-color: #f9a602;
 
 }
 
