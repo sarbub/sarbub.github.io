@@ -31,6 +31,7 @@ body{
   text-decoration: none;
   font-size: 25px;
   transition: 0.3s;
+	font-style:italic;
 }
 .container{
 	display: grid;
@@ -43,9 +44,11 @@ body{
 	font-size:50px;
 	font-weight: bold;
 	font-family:serif;
-	background-color:#c1c1c1;
+	background-color:#fff;
 	padding:2rem 2rem;
 	box-shadow: 5px 10px 18px #888888;
+	overflow: hidden;
+	font-style:italic;
 }
 .container div:nth-child(odd){
 	color:#fff;
@@ -56,11 +59,16 @@ body{
 .container a {
 	text-decoration:none;
 	color:#fff;
+	background-color:#888888;
+	padding:6rem 15rem 6rem 5rem;
+	font-style:italic;
+
 }
 
 
  #p{
 	font-size: 80px;
+	font-style:italic;
 }
 
 .publicity{
@@ -131,6 +139,7 @@ body{
 .daily{
 	display:grid;
 	grid-template-columns:100%;
+	font-style:italic;
 
 }
 .daily div{
@@ -153,6 +162,13 @@ body{
 #p{
 	font-size:60px;
 }
+.container a {
+	padding:6rem 15rem 6rem 0rem;
+}
+.container div{
+	background-color: #888888;
+}
+
 .textLearn{
 	position:relative;
 	top:200px;
