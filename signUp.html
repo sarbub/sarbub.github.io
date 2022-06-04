@@ -6,34 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title id="title">FirePage</title>
       <style>
-        .text{
-          display: grid;
-          grid-template-columns: 100%;
-          overflow: hidden;
-          box-shadow: 5px 10px 18px #888888;
-          
- 
-        }
-        .text div{
-          background-color: #dee1e6;
-          height:30px;
-          padding:2rem 2rem;
-          overflow: hidden;
-        }
-        .text div:nth-child(odd){
-          background-color: #c1c1c1;
-
-        }
-        .text a{
-          text-decoration:none;
-          color:#fff;
-          font-size:20px;
-          font-style:italic;
-        }
-        #back{
-          background-color:#f9a602;
-
-        }
+        /* UPPER BOTTOM */
         .upper{
           display: grid;
 		      grid-template-columns: 50%;
@@ -45,34 +18,130 @@
 	      	font-size:100px;
           font-style:italic;
         }
-        #acasa{
+        .bottom{
+          padding:2rem;
+          background-color:#f9a602;
+          color:#fff;
           font-size:30px;
-          font-size:45px;
-          padding:5rem 92rem 2rem 2rem;
-          background-color: #fff;
-          color:#f9a602;
-          font-weight: bold;
-          font-style:italic;
-          
-        }
-        @media only screen and (max-width:500px){
-          .text a{
-          font-size:15px;
+          overflow: hidden;
         }
 
+        .bottom a{
+          color:#fff;
+          font-size:30px;
+          text-decoration:none;
+          padding : 4rem 72rem 4rem 0rem;
+        }
+
+        .details{
+          display:grid;
+          grid-template-columns: 100%;
+        }
+        .details details{
+          color:#fff;
+          font-size:30px;
+          overflow: hidden;
+          padding:0rem 0rem 0.1rem 0rem;
+        }
+        .details summary{
+          background-color: #888888;
+          padding:2rem;
+        }
+    
+        .media{
+          display: grid;
+          grid-template-columns: 70% 30%;
+        }
+        .media div{
+          background-color: #ad0a0a;
+          padding:2rem;
+        }
+        .media div:nth-child(odd){
+          background-color:#1c1c1c;
+
+        }
+        .details_two{
+          background-color: #f9a602;
+        }
+        .secondColor{
+          color:#f9a602;
+        }
+        @media only screen and (max-width:500px){
+          .details details{
+            font-size:25px;
+          }
+          .details iframe{
+            width:100%;
+            height:20rem;
+          }
+          .media{
+          display: grid;
+          grid-template-columns: 100%;
+        }
         }
       </style>
   </head>
   <body>
     <div class="upper">Predici_</div>
-   <div class="text">
-     <div><a href="https://www.youtube.com/watch?v=r5l-5FX3Db8">Trecerea Mării Roșii -Cristian Barbosu</a></div>
-     <div><a href="https://www.youtube.com/watch?v=gu6DEVctSQ8&t=3s">Felul in care vorbeste Dumnezeu -Cristi Boariu</a></div>
-     <div><a href="https://www.youtube.com/watch?v=PayHR-reoN8">Problemele inchinarii prin MUZICA in randul tinerilor -Luigi Mitoi</a></div>
-     <div><a href="https://www.youtube.com/watch?v=zuUCqFiY38s">Falimentul care iti aduce SUCCES -Mihaita Danila</a></div>
-     <div id="back"><a href="index.html" id="acasa">#Home</a></div>
-   </div>
-   
-    
+    <div class="details">
+        <details>
+          <summary>predici Cristian Barbosu</summary>
+          <details>
+              <summary class="secondColor">Trecerea Mării Roșii</summary>
+            <div class="media">
+              <div>
+                <iframe src="https://www.youtube.com/embed/r5l-5FX3Db8" width="560" height="315" title="Trecerea Mării Roșii | Cristian Barbosu | Harvest Arad" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div>
+                notite:<BR>
+                  -Domnul are un plan,chiar daca omeneste nu pare<br>
+                  -Domnul a luptat pentru Israel,el lupta si pentru tine astazi findca esti copilul lui
+              </div>
+            </div>
+          </details>
+        </details>
+        <details>
+          <summary>Cristi Boariu</summary>
+          <details>
+            <summary class="secondColor">Cum pot birui ispita</summary>
+            <div class="media">
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/trCrhZT3z_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div>
+                notite:<br>
+                -Ai grija cu ce baiat/fata vorbesti<br>
+                -Noi,crestini suntem mereu in razboi cu cel rau,trebuie sa fim vecheatori
+
+              </div>
+            </div>
+          </details>
+        </details>
+        <details>
+          <summary>Mihaita Danila</summary>
+          <details>
+            <summary class="secondColor"> BICIUL Lui Dumnezeu</summary>
+            <div class="media">
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RDuRvhkeRfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div>
+                Notite:<br>
+                -Ai grija cum vi in casa Domnului,nu poti veni oricum<br>
+                -Rugaciunea are putere
+
+ 
+              </div>
+            </div>
+          </details>
+        </details>
+        <div class="bottom">
+          <a href="index.html">#Home</a>
+        </div>
+    </div>
   </body>
+  <script>
+ 
+  
+  </script>
 </html>
