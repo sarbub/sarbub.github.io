@@ -103,6 +103,7 @@
     }
 }
 
+          /* loader end */
         @media only screen and (max-width:500px){
           .details details{
             font-size:25px;
@@ -119,11 +120,9 @@
       </style>
   </head>
   <body>
-    <!-- loader -->
     <div class="loader">
       <img src="loader.gif" alt="Loading..." />
   </div>
-  <!-- end loader -->
     <div class="upper">Predici_</div>
     <div class="details">
         <details>
@@ -148,7 +147,7 @@
               <iframe width="560" height="315" src="https://www.youtube.com/embed/iycG2AuAB84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div>
-              notițe:<BR>
+              notițe:<br>
                 
             </div>
           </div>
@@ -327,9 +326,9 @@
     </div>
   </body>
   <script>
-    	  window.addEventListener("load", function () {
+     window.addEventListener("load", function () {
     const loader = document.querySelector(".loader");
     loader.className += " hidden"; // class "loader hidden"
-}); 
+});
   </script>
 </html>
