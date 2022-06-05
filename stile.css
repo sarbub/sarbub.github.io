@@ -144,16 +144,26 @@ body{
 }
 .daily div{
 	color:#fff;
+	text-align: center;
+	margin: auto;
+	font-size:30px;
+	width:70%;
+	padding:2rem 2rem;
+	background-color: #f9a602;
+}
+.ganduri{
+	color:#fff;
 	box-shadow: 5px 10px 18px #888888;
 	text-align: center;
 	margin: auto;
 	font-size:30px;
 	width:70%;
 	padding:2rem 2rem;
-	border-radius:20px;
-	background-color: #f9a602;
-
+	border-radius:0px 0px 20px 20px;
+	background-color:red;
+	cursor: pointer;
 }
+
 
 
 
