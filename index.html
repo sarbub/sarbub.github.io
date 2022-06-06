@@ -9,6 +9,7 @@
 	<link rel="icon" href="logo.png">
 </head>
 <style>
+	
 	.loader {
 	position: fixed;
 	z-index: 99;
@@ -38,6 +39,85 @@
 	}
 }
 
+/* div's top */
+.MainDiv{
+	display:grid;
+	grid-template-columns:4fr;
+
+	padding:2rem 2rem;
+	background-image: url("bibleImage.jpg");
+	background-size:cover;
+	position: 2px ;
+}
+.MainDiv div{
+	padding:1rem 1rem;
+
+}
+.one{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	
+}
+.one div{
+	height:5rem;
+	
+}
+.two div{
+	padding:0rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.one a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.two{
+	color:#fff;
+	font-size:30px;
+	font-family:serif;
+}
+.two p{
+	size:25px;
+}
+.Ganduri {
+	padding:1rem;
+	box-shadow: 5px 10px 18px #888888;;
+
+}
+
+
+
+@media only screen and (max-width:650px){
+	.one{
+		grid-template-columns: 100%;
+	}
+	.one .image{
+		display:none;
+	}
+}
+
 </style>
 
 
@@ -46,27 +126,58 @@
 	<div class="loader">
     <img src="LogoLoader.png" alt="Loading..." />
 </div>
-	<!-- end loader -->
+<div class="MainDiv">
+	<div class="one">
+		<div class="image">
+			<img src="logoFish.png">
+		</div>
+		<div class="nav">
+				<ul class="navigation">
+					<li><a href="#">Home</a></li>
+					<li><a href="citeste.html">Citește</a></li>
+					<li><a href="info.html">info</a></li>
+			</nav>
+		</div>
+	</div>
+	<div class="two">
+		<div class="">
+			<div>
+				Fiindcă atât de mult a iubit Dumnezeu lumea, încât L-a dat pe singurul Lui Fiu, 
+				pentru ca oricine crede în El să nu piară, ci să aibă viaţă veşnică.<br>
+				<p>Ioan 3:16</p>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<div class="Ganduri">
+	<details>
+		<summary>Ganduri:</summary>
+		<p>this is me</p>
+	</datails>
+</div>
+
+
+	
+
+<!-- loader end -->
+
+
 	<!-- ###1.code for the icons starts here-->
 
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-	<!--code for icons ends here-->
-
-
-
-		
-		<!-- ####2.code for the navbar starts here-->
-
-
 		<div class="navBar">
 		<a href="index.html" id="Activate">Home <ion-icon name="home-outline" id="home"></ion-icon></a>
 		<a href="predici.html" id="signup">Predici<ion-icon name="create-outline" id="sign"></ion-icon></a>
-		<a href="info.html" id="moreText">Info<ion-icon name="ellipsis-horizontal-circle-outline" id="more"></ion-icon></a>
+		<a href="info.html" id="moreText">Info<ion-icon name="ellipsis-horizontal-circle-outline" id="more"></ion-icon></a> -->
 		<!--code for navbar ends here-->
-	</div><br><Br><br><br>
-	<div class="container">
+	<!-- </div><br><Br><br><br> -->
+		<!-- dalyVerse -->
+
+
+		<!-- DalyVerse end -->
+	<!-- <div class="container">
 		<div>Citește Biblia,iți va schimba viața 100%</div>
 		<div><a href="citeste.html">#Citește</a></div>
 	</div>
@@ -89,20 +200,7 @@
 
 
 		</details>
-	</div>
-<center>
-	
-
-</center>
-
-	<!-- ###3.code for the buttons and the text starts here-->
-
-	<br><br>
-
-	
-
-	<!-- code for the buttons and the text ends here-->
-	
+	</div> -->
 
 
 </body>
@@ -112,4 +210,6 @@
     loader.className += " hidden"; // class "loader hidden"
 });
 </script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>
