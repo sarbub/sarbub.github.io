@@ -8,7 +8,7 @@
       <link rel="icon" href="logo.png">
       <style>
         body{
-          background-image:url("verse.jpg");
+          background-image:url("blur.jpg");
           background-size:cover;
           
         }
@@ -25,10 +25,11 @@
         }
         .bottom{
           padding:2rem;
-          background-color:#f9a602;
           color:#fff;
           font-size:30px;
           overflow: hidden;
+          border:2px solid #f1f3f4;
+          transition: 0.3s;
         }
 
         .bottom a{
@@ -36,6 +37,15 @@
           font-size:30px;
           text-decoration:none;
           padding : 4rem 72rem 4rem 0rem;
+          transition:0.3s;
+        }
+        .bottom a:hover{
+          color:#1c1c1c;
+          
+        }
+        .bottom:hover{
+          background:#f1f3f4;
+          
         }
 
         .details{
@@ -56,7 +66,10 @@
     
         .media{
           display: grid;
-          grid-template-columns: 70% 30%;
+          grid-template-columns:100%;
+          margin:auto;
+
+
         }
         .media div{
           background-color: #ad0a0a;
@@ -67,16 +80,19 @@
 
         }
         .details_two{
-          background-color: #f9a602;
+          background-color: #1c1c1c;
         }
         .secondColor{
-          color:#f9a602;
+          color:#1c1c1c;
           border-top:2px solid #f1f3f4;
         }
         .details img{
             width:20rem;
             height:20rem;
           }
+        summary{
+          font-weight: bold;
+        }  
 
         @media only screen and (max-width:500px){
           .details details{
@@ -109,7 +125,7 @@
                 <iframe src="https://www.youtube.com/embed/r5l-5FX3Db8" width="560" height="315" title="Trecerea Mării Roșii | Cristian Barbosu | Harvest Arad" frameborder="0" allowfullscreen></iframe>
               </div>
               <div>
-                notițe:<BR>
+                notițe:<br>
                   -Domnul are un plan,chiar dacă omenește nu pare<br>
                   -Domnul a luptat pentru Israel,el luptă și pentru tine astăzi fiindcă ești copilul Lui
               </div>
