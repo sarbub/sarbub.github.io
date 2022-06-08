@@ -10,83 +10,17 @@
 </head>
 <style>
 
-   /* search bar and home div */
-HTML, body {
-	margin: 0px;
-	padding: 0px;
- 	border: 0px;
-}
-.main{
-  margin:auto;
-  background-image: url("blur.jpg");
-  width:100%;
-  height:60rem;
-  color:#fff;
-  position: relative;
-  top:-100px;
-}
-p{
-  font-size:80px;
-  font-family:serif;
-  padding:15rem 2rem;
-}
-a{
-  color:#fff;
-  text-decoration:none;
-  font-size:80px;
-  border:1px solid #fff;
-  padding:1rem 2rem;
-  transition:0.3s;
-}
-a:hover{
-  color:#1c1c1c;
-  background-color: #f1f3f4;
-}
-details{
-  font-size:50px;
-  font-weight: bold;
-  color:#1c1c1c;
-  box-shadow:5px 10px 18px #888888;
-  padding:2rem;
-  position: relative;
-  top:-6rem;
-}
-
 
 </style>
 <body>
-
-<center>
-  <div class="main">
-    <p>Indisponibil momentan</p>
-    <a href="index.html">Home</a>
-   </div>
-</center>
-<details>
-  <summary>More info...</summary>
-  Momentan cântarile sunt indisponiblie,deoarece sunt niște mici erori
-</details>
-
+  <h1>this is me</h1>
 </body>
 <script>
-  // JavaScript code
-function search_animal() {
-    let notFound = "not found"
-    let input = document.getElementById('searchbar').value;
-    input=input.toLowerCase();
-    let x = document.getElementsByClassName('songs');
-      
-    for (i = 0; i < x.length; i++) { 
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display ="none";
-        }
-        else {
-          
-            x[i].style.display ="list-item";                 
-        }
+  document.addEventListener("keydown",e=>{
+    if(e.key.toLowerCase() === "a"){
+      alert("this is not a joke");
     }
-}
-
+  });
 </script>
   
 </html>
