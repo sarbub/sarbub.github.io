@@ -78,29 +78,41 @@
    /* search bar and home div */
 .main{
   margin:auto;
+  background-image: url("blur.jpg");
+  width:100%;
+  height:60rem;
+  color:#fff;
+  position: relative;
+  top:-100px;
 }
 p{
-  font-size:20px;
+  font-size:80px;
   font-family:serif;
-  padding:1rem;
+  padding:15rem 2rem;
 }
 a{
-  color:#1c1c1c;
+  color:#fff;
   text-decoration:none;
-  font-size:20px;
-  border:1px solid #1c1c1c;
+  font-size:80px;
+  border:1px solid #fff;
   padding:1rem 2rem;
+  transition:0.3s;
+}
+a:hover{
+  color:#1c1c1c;
+  background-color: #f1f3f4;
+}
+details{
+  font-size:50px;
+  font-weight: bold;
+  color:#1c1c1c;
+  box-shadow:5px 10px 18px #888888;
+  padding:2rem;
+  position: relative;
+  top:-6rem;
 }
 
-@media only screen and (max-width:550px){
-  a{
-    font-size:50px;
-  }
-  p{
-    font-size:50px;
-  }
-}
-  
+
 </style>
 <body>
 
@@ -108,9 +120,13 @@ a{
   <div class="main">
     <p>indisponibil momentan</p>
     <a href="index.html">home</a>
-  
    </div>
 </center>
+<details>
+  <summary>more info...</summary>
+  Momentan cântarile sunt indisponiblie,deoarece sunt niște mici erori
+</details>
+
 </body>
 <script>
   // JavaScript code
