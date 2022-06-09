@@ -10,17 +10,30 @@
 </head>
 <style>
 
+  #text{
+    max-width: 500px;
+    max-height: 500px;
+  }
+
 
 </style>
 <body>
-  <h1>this is me</h1>
+  <form action="" method="get">
+    sing me a song<br>
+    <textarea id = "text" name="songs"></textarea>
+  </form>
+    <p id="output" ></p>
+  <input type="button" id="btn" value="now">
+
 </body>
 <script>
-  document.addEventListener("keydown",e=>{
-    if(e.key.toLowerCase() === "a"){
-      alert("this is not a joke");
-    }
-  });
+  const txt = document.getElementById('text');
+  const but = document.getElementById('btn');
+  const out = document.getElementById('output');
+  function fun(){
+     out.innerHTML = txt.value;
+}
+  btn.addEventListener('click',fun);
 </script>
   
 </html>
