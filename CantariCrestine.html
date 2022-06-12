@@ -16,8 +16,8 @@
     background-image: url("blur.jpg");
     background-size: cover;
     margin:auto;
-    position:relative;
-    top:0px;
+    position:sticky;
+    top:0;
     padding:2rem;
     display:grid;
     grid-template-columns:100%;
@@ -96,18 +96,15 @@
 </style>
 <body>
   <div class="upper">
-    <div id="indep">
-
-    </div>
-    <div class="">
-      <p>Cântări</p>
-    </div>
-    <div class="">
-      <input type="text" id="searchbar" onkeyup="search()" placeholder="search...">
-    </div>
-    <div class="">
-      <a href="index.html" id="home">Home</a>
-    </div>
+      <div class="">
+        <p>Cântări</p>
+      </div>
+      <div class="">
+        <input type="text" id="searchbar" onkeyup="search()" placeholder="search...">
+      </div>
+      <div class="">
+        <a href="index.html" id="home">Home</a>
+      </div>
   </div>
   <ul>
     <li class="songs">
